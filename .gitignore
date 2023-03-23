@@ -1,0 +1,75 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.pot
+*.egg-info/
+dist/
+build/
+*.egg
+*.sdist
+
+# Django
+*.sqlite3
+local_settings.py
+db.sqlite3
+
+# Media files
+media/
+
+# Static files
+static/
+
+# Environment and configuration
+.env
+.env.local
+.env.production
+.env.staging
+*.json
+*.yaml
+*.yml
+*.ini
+
+# Virtual environment
+venv/
+*.venv
+venv.bak/
+.Python/
+
+# IDE/Editor
+.vscode/
+*.sublime*
+*.swp
+*.swo
+*.swn
+*.bak
+*.pyc~
+*~
+.idea/
+*.iml
+*.iws
+*.ipr
+*.rbc
+
+# OS
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Others
+*.bak
+*.swp
+*.swo
+*.swn
+*.lock
+node_modules/
+*.sass-cache/
